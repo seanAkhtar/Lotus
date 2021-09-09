@@ -55,30 +55,26 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "axis" : [
-                                            0,
-                                            1,
-                                            0
-                                          ],
-                                          "direction" : "clockwise",
-                                          "duration" : 13.280673027038574,
+                                          "animationStyle" : "basic",
+                                          "duration" : 4.5333895683288574,
+                                          "emphasisAnimationType" : "pop",
                                           "iterations" : 1,
                                           "target" : [
                                             "2BE6D134-E4D7-4BEE-89D5-901557241221"
                                           ]
                                         },
                                         "name" : {
-                                          "type" : "spin"
+                                          "type" : "emphasis"
                                         }
                                       },
-                                      "identifier" : "363093CF-4FC8-4FAE-86E0-7EAD60BA92AE",
+                                      "identifier" : "B8CEF45C-2F06-43F5-9B74-936263062B14",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "5993007D-A69C-4AB0-87CA-C6E3BC73F8C1",
+                              "identifier" : "1389B2A2-B9C5-4B0A-B22D-F1AA7E1F6BBB",
                               "isEnabled" : true
                             }
                           ],
