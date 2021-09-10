@@ -18,6 +18,11 @@ struct ARViewContainer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
         
+        //working on creating a button
+        Button("Post"){
+            print("This will create post")
+        }
+        
         let arView = ARView(frame: .zero)
         
         // Load the "Box" scene from the "Experience" Reality File
