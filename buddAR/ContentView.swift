@@ -9,7 +9,15 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    
     var body: some View {
+        Button{
+            print("Button pressed")
+        } label:{
+            Text("Press me")
+                .padding(10)
+        }
+        .contentShape(Rectangle())
         return ARViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
@@ -19,10 +27,10 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         
         //working on creating a button
-        Button("Post"){
-            print("This will create post")
-        }
-        
+//        Button("Post"){
+//            print("This will create post")
+//        }
+//
         let arView = ARView(frame: .zero)
         
         // Load the "Box" scene from the "Experience" Reality File
