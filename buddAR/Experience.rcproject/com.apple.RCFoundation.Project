@@ -31,26 +31,116 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "playful",
-                                          "duration" : 6.2300000190734863,
-                                          "emphasisAnimationType" : "float",
+                                          "axis" : [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "direction" : "counterclockwise",
+                                          "duration" : 0.21654616296291351,
                                           "iterations" : 1,
                                           "target" : [
                                             "02EEA210-1811-4851-833F-B3C2D715022D"
                                           ]
                                         },
                                         "name" : {
-                                          "type" : "emphasis"
+                                          "type" : "spin"
                                         }
                                       },
-                                      "identifier" : "8DAEFA51-5C49-4586-91A0-F1C29CA690A1",
+                                      "identifier" : "570AECFB-EEF7-4726-9312-47E40742F6F7",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "5F90D0B5-418F-41E7-812D-53E9822C09EE",
+                              "identifier" : "F0811FB8-4844-45E8-9CDC-D3277F6EDF8E",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationDuration" : 0,
+                                          "direction" : [
+                                            0,
+                                            0,
+                                            1
+                                          ],
+                                          "duration" : 6.5122237205505371,
+                                          "loops" : false,
+                                          "target" : [
+                                            "02EEA210-1811-4851-833F-B3C2D715022D"
+                                          ],
+                                          "upVector" : [
+                                            0,
+                                            1,
+                                            0
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "lookAtCamera"
+                                        }
+                                      },
+                                      "identifier" : "67AEAC3B-8379-494A-BDBC-2296E762B2D8",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "785342B8-3186-4E0A-9626-A04B934071EE",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        },
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "duration" : 1,
+                                          "isTransformInitKeyPath" : true,
+                                          "linearCoefficient" : 1,
+                                          "location" : [
+                                            6.036592960357666,
+                                            0,
+                                            0
+                                          ],
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "scale" : 0.45594155788421631,
+                                          "target" : [
+                                            "02EEA210-1811-4851-833F-B3C2D715022D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "arguments" : "local",
+                                          "type" : "transform"
+                                        }
+                                      },
+                                      "identifier" : "317A3EC3-7382-41EF-8F7D-82A1DE7ECD65",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "0796D8AE-6240-4E82-9F10-8C905B59CDCB",
                               "isEnabled" : true
                             }
                           ],
@@ -350,9 +440,9 @@
                   0.47916525602340698,
                   0.87018150091171265,
                   0,
-                  1.6780533790588379,
-                  5.1267905235290527,
-                  8.4202232360839844,
+                  0.65730583667755127,
+                  2.6384432315826416,
+                  5.7254276275634766,
                   1
                 ],
                 "sceneTransform" : [
