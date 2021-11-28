@@ -10,25 +10,10 @@ import RealityKit
 
 struct ContentView : View {
     
-    var worldMapURL: URL = {
-        do {
-            return try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-                .appendingPathComponent("worldMapURL")
-        } catch {
-            fatalError("Error getting world map URL from document directory.")
-        }
-    }()
-    
     var body: some View {
-        Button{
-            print("Button pressed")
-        } label:{
-            Text("Press me")
-                .padding(10)
-        }
-        .contentShape(Rectangle())
+      
         return ARViewContainer().edgesIgnoringSafeArea(.all)
-    
+    }
 }
 
 struct ARViewContainer: UIViewRepresentable {
