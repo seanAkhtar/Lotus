@@ -731,6 +731,94 @@
                     }
                   ],
                   "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "direction" : "counterclockwise",
+                                          "duration" : 7.3208146095275879,
+                                          "linearCoefficient" : 1,
+                                          "orbitalAxis" : [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "orientToPath" : true,
+                                          "pivotTarget" : "02EEA210-1811-4851-833F-B3C2D715022D",
+                                          "respectPhysics" : false,
+                                          "rotations" : 1,
+                                          "target" : [
+                                            "1AF86CE6-201E-41B2-8890-9A199FFAB0D1"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "orbitEntity"
+                                        }
+                                      },
+                                      "identifier" : "7E2262E6-CBE1-4D51-AC30-813E447FFD8E",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "15D16F42-6234-490A-A0C3-AA8421FBA19D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49803921580314636,
+                        0.52941179275512695,
+                        0.61960786581039429,
+                        1
+                      ],
+                      "identifier" : "15AABB39-7FE5-4FD6-B134-C7117B0BD327",
+                      "isEnabled" : true,
+                      "isLooping" : true,
+                      "isModal" : false,
+                      "name" : "Behavior 7",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "30A6CB70-A395-4D9C-B90A-C09949C9ECED",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
                 }
               ],
               "gravity" : [
@@ -813,6 +901,7 @@
                   },
                   "1A0D74B5-5BC0-4151-9065-7AB0253A37FE" : null,
                   "1B21AA75-B3F2-499F-9D0D-EA972ABEB493" : null,
+                  "3E4F7751-9332-4B95-AAAF-1F0292A84EDB" : null,
                   "03E8795C-5232-46ED-8074-8DD2EA5220F9" : null,
                   "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
                   "4FA5FCBB-8106-4127-804B-8637061B82AE" : null,
@@ -962,6 +1051,134 @@
                     }
                   },
                   "578419A9-0006-46BA-97C6-D1694A966AB1" : null,
+                  "2829013C-859D-48CE-848F-54FCDBE05CBD" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Asteroid"
+                          }
+                        ],
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "gold"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Iconic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "1A9008D6-0ED0-4AA5-9438-6C093A5B9311"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3C1A1A8E-FA03-4684-ABE0-2C1B69C2DE05"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Asteroid.e2be1dd0-ae07-46b1-877c-dc43be001902",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1AF86CE6-201E-41B2-8890-9A199FFAB0D1"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-material",
+                          {
+                            "typeName" : "RigidBodyMaterial",
+                            "value" : {
+                              "builtIn" : "ice",
+                              "overrides" : {
+
+                              }
+                            }
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        19.222295761108398,
+                        0,
+                        0,
+                        0,
+                        0,
+                        19.222295761108398,
+                        0,
+                        0,
+                        0,
+                        0,
+                        19.222295761108398,
+                        0,
+                        -0.44810423254966736,
+                        0.33532032370567322,
+                        1.6531668901443481,
+                        1
+                      ]
+                    }
+                  },
                   "4022784F-AC74-480D-BAB3-0260C4BE38C0" : {
                     "overrides" : {
                       "children" : {
@@ -1213,6 +1430,13 @@
                             "typeName" : "UUID",
                             "value" : "C2F82DF2-1D8E-46B4-8C20-A706B74AB14E"
                           }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
                         ]
                       ]
                     },
@@ -1255,21 +1479,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.9997294545173645,
-                  -1.8467954276957244e-08,
-                  0.023259103298187256,
+                  0.82114475965499878,
+                  2.0263732025682657e-08,
+                  0.57071995735168457,
                   0,
-                  0.013013412244617939,
-                  0.82883483171463013,
-                  -0.55934196710586548,
+                  0.04314805194735527,
+                  0.99713802337646484,
+                  -0.062080617994070053,
                   0,
-                  -0.019277935847640038,
-                  0.55949342250823975,
-                  0.82861059904098511,
+                  -0.56908655166625977,
+                  0.075602687895298004,
+                  0.8187946081161499,
                   0,
-                  -0.56364107131958008,
-                  2.4334478378295898,
-                  3.431995153427124,
+                  -2.7926321029663086,
+                  0.40842729806900024,
+                  3.1705424785614014,
                   1
                 ],
                 "sceneTransform" : [
